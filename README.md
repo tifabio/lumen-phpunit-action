@@ -35,7 +35,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: carlosabcs/lumen-phpunit-action@master
+    - uses: tifabio/lumen-phpunit-action@master
 ```
 
 Don't forget that you should set up your database credentials both in your `.env.example` file and in the mysql service env variables in the content above!
